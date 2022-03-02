@@ -1,0 +1,36 @@
+<document>
+    <employee>
+        <name>
+            <firstname>Jon</firstname>
+            <lastname>Doe</lastname>
+        </name>
+        <hiredate> 2 Feb, 2022</hiredate>
+        <education>
+            <institute>
+                <name>Indian Institute of Technology, Bombay</name>
+                <address>Powai, Mumbai</address>
+                <established>1959</established>
+                <type>Undergrad</type>
+                <marks>9.23</marks>
+                <years>2005-2009</years>
+            </institute>
+            <institute>
+                <name>Cambridge High School Indore</name>
+                <address>Madhya Pradesh, India</address>
+                <established>1980</established>
+                <type>High School</type>
+                <marks>95%</marks>
+                <years>2003-2005</years>
+            </institute>
+            <institute>
+                <name>Army School, Kolkata</name>
+                <address>Kolkata, India</address>
+                <established>1970</established>
+                <type>Mid School</type>
+                <marks>92%</marks>
+                <years>1993-2003</years>
+            </institute>
+        </education>
+        <experiences></experiences>
+    </employee>
+</document>
