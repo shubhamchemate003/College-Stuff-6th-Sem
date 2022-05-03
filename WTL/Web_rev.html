@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>JS</title>
+		<style>
+			div {
+				margin: 2em;
+				padding: 1rem;
+				background-color: aquamarine;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1" id="id1">This is a heading</div>
+
+		<div class="div1">This is a heading</div>
+
+		<div>This is a heading</div>
+
+		<input type="button" value="HELLO" onclick="sayHello()" />
+
+		<script>
+			function sayHello() {
+				alert("Hello");
+			}
+
+			// console.log(document.getElementsByClassName("div1"));
+
+			document.getElementsByClassName("div1")[0].style.backgroundColor = "red";
+		</script>
+	</body>
+</html>

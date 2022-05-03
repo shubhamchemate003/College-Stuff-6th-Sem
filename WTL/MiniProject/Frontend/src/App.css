@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-header {
+  background-image: url(./bluebackground.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.logincard {
+  max-width: 575px;
+  height: 100vh;
+}
+
+.signintext {
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+.loginform {
+  justify-content: center;
+}
+
+.cardform {
+  border-radius: 25px;
+}
+
+.customerdash {
+  margin-top: 75px;
+
+}
+
+.navbar {
+  background-color: #4c7bec;
+}
+
+.cardimage {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.mediaimage {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.mediacover {
+  height: 100px;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.imagecover {
+  height: 300px;
+  margin: 10px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

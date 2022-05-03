@@ -1,0 +1,11 @@
+* {
+	background-color: rgb(238, 249, 242);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	padding: 2rem;
+	border-radius: 3rem;
+	box-shadow: 5cm;
+}
